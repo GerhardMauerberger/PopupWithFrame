@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="PopupWithFrame.PopupPage" CanBeDismissedByTappingOutsideOfPopup="True"
+             Size="350,80">
+    <Frame BackgroundColor="MediumPurple" 
+           BorderColor="Black" CornerRadius="5"
+           Padding="8" >
+        <Label Text="It is because of the Frame that this does not work on Adroid. It works fine on Windows" LineBreakMode="WordWrap" />
+    </Frame>
+</toolkit:Popup>
