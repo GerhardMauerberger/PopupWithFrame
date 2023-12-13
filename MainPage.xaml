@@ -21,6 +21,11 @@
                 Text="Klick Button to open a Popup" 
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Button
+                x:Name="LoginBtn"
+                Text="Klick Button to open Login (same Bug with ContentPage) " 
+                Clicked="OnLoginBtnClicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 

@@ -19,6 +19,11 @@ namespace PopupWithFrame
             Shell.Current.CurrentPage.ShowPopup(popup);
 
         }
+
+        private void OnLoginBtnClicked(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync("Login", true);
+        }
     }
 
 }
