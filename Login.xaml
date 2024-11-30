@@ -6,7 +6,7 @@
      Spacing="25"
      Padding="30,0"
      VerticalOptions="Center">
-        <Frame>
+        <Border StrokeThickness="1" BackgroundColor="Yellow" StrokeShape="RoundRectangle 20,20,20,20">
             <Grid RowDefinitions="auto, auto, auto, auto">
                 <Border Stroke="#C49B33"
                         StrokeThickness="4"
@@ -35,6 +35,6 @@
                      Clicked="OnSettings"
                      HorizontalOptions="Center" />
             </Grid>
-        </Frame>
+        </Border>
     </VerticalStackLayout>
 </ContentPage>    
